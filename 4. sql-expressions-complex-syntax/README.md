@@ -2,76 +2,89 @@
 
 ## Goals
 
-You will move beyond simple `SELECT` lists:
+By the end of this section, you will move beyond simple SELECT queries and explore other SQL queries to:
 
-1. **Filter** rows with `WHERE`
-2. **Aggregate** with `GROUP BY` (counts, averages—whatever fits the story you are telling)
-3. **Combine** results from **two queries** into one table using `JOIN` or `UNION ALL`
+1. Filter rows with **WHERE**
+2. Aggregate results with **GROUP BY** and **COUNT**
+3. Sort results with **ORDER BY** and **DESC**
 
-Continue using the **UK Traitors Series 4** sheet as query input.
+**Need help?** Use [code-snippets.md](./code-snippets.md) as a reference, or raise your hands and we'll come assist you!
 
-**Need help?** See [code-snippets.md](./code-snippets.md). For two-query joins, add a **second query** to the same panel and reference frames **`A`** and **`B`**.
+## Exercise A: Find out who was murdered in episode 1
 
-## Exercise A — Filter and aggregate
+### Step 1: Duplicate your panel
 
-### Step 1
+1. Click **Back to dashboard** to go back to the dashboard view.
+2. Hover over the first panel and click the three-dot vertical icon.
+3. Click **More > Duplicate** to duplicate the panel.
+4. Hover over the new panel and click the three-dot vertical icon.
+5. Click **Edit** to go to the edit view mode.
 
-Duplicate your panel or add a new **Table** visualization so you can compare raw versus transformed output.
+### Step 2: Filter rows with **WHERE**
 
-### Step 2
-
-Complete the template:
+Update the SQL Expression and use the template below:
 
 ```sql
 SELECT
-  -- grouping column(s) and aggregate(s), e.g. COUNT(*), AVG(...)
+  -- pick the "player" column 
 
 FROM A
 WHERE
-  -- exclude rows you do not want
+  -- add your filtering condition here
 
-GROUP BY
-  -- must include every non-aggregated column in SELECT
 ```
 
-### Step 3
+Click the **Run query** button to verify the results. If you need assistance, remember to check [code-snippets.md](./code-snippets.md)!
 
-Validate grouped counts or averages against what you expect from the spreadsheet.
+### Step 3: Change the visualization style
 
-## Exercise B — Combine two queries
+1. Click the **Change** button beside the visualization name
+2. Use the **Suggestions** feature and select the **Stat** panel
+3. Feel free to update the visualization options, such as **Color mode** and/or the **Color scheme**
 
-### Step 1
+### Step 4: Rename your panel and save the dashboard
 
-Create **Query B** alongside **Query A** on the same panel. Examples:
+1. Give your panel a name (for example **Murdered on Episode 1**)
+2. Save the dashboard 
 
-- **Query A:** range `Sheet1!A1:G50` (adjust to your tab)
-- **Query B:** a different range or the same sheet filtered differently—your facilitator may suggest a split (for example early vs late episodes) so a join key exists.
+## Exercise B: Find out which player received the most votes
 
-You need at least one **shared column** (often `player`, `episode`, or a derived key) to join, or compatible columns for `UNION ALL`.
+### Step 1: Duplicate your panel
 
-### Step 2
+Follow the same steps as above.
 
-Use **SQL expressions** only (join or union the frames):
+### Step 2: Filter rows with **WHERE**
+
+Update the SQL Expression and use the template below:
 
 ```sql
--- Pattern 1: INNER JOIN ... ON ...
--- Pattern 2: UNION ALL two SELECTs from A and B
+SELECT
+  -- 1. pick the "voted_for" column to display the names of contestants that were voted to be banished
+
+  -- 2. Use COUNT to count * (all the rows) and give it an ALIAS of "votes"
+FROM A
+WHERE
+  -- add your filtering condition here.
+  -- "voted_for" column has some null values, so exclude them
+GROUP BY
+  -- group the results by "voted_for" to
+ORDER BY
+ -- order by "votes" in a DESC order
+
 ```
 
-### Step 3
+Click the **Run query** button to verify the results. If you need assistance, remember to check [code-snippets.md](./code-snippets.md)!
 
-Confirm row counts in **Panel inspect → Data**—joins should not surprise you with accidental duplication.
+### Step 3: Change the visualization style
 
-**Success looks like:** One table that either summarizes votes (**Exercise A**) or merges two frames (**Exercise B**) without errors.
+1. Click the **Change** button beside the visualization name
+2. Use the **Suggestions** feature and select a visualization type of your liking
+3. Feel free to update the visualization options!
 
-## Lab answers
+### Step 4: Rename your panel and save the dashboard
 
-- [answer/filter-and-group.sql](./answer/filter-and-group.sql)
-- [answer/combine.sql](./answer/combine.sql)
-
-## Other resources
-
-- [Transform data with SQL expressions](https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/sql-expressions/)
+1. Give your panel a name (for example **Players with the most votes**)
+2. Save the dashboard 
 
 ---
 

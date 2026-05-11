@@ -26,7 +26,7 @@ You should see a new panel, like the one below.
 
 ![Blank panel](../images/blank-panel.png)
 
-### Step 2: Query the Traitors UK spreadsheet using the Google Sheets data source
+## Step 2: Query the Traitors UK spreadsheet using the Google Sheets data source
 
 In the query editor:
 
@@ -38,7 +38,7 @@ Run the query and confirm you see the panel populated with data from the spreads
 
 ![Basic table panel](../images/basic-table.png)
 
-### Step 3: Save the dashboard
+## Step 3: Save the dashboard
 
 1. Save the dashboard and give it a name (for example **Traitors SQL expressions**).
 

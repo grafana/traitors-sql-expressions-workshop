@@ -45,6 +45,11 @@ To only display the query result with SQL Expressions applied, you can hide the 
 
 ![Hide query](../images/hide-query.png)
 
+## Step 5: Rename your panel and save the dashboard
+
+1. Give your panel a name (for example **Basic SQL Expression**)
+2. Save the dashboard 
+
 ## Next
 
 Let's look at writing more SQL expressions, and exploring other syntaxes like `WHERE`, `GROUP BY`, and `COUNT`.
