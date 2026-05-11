@@ -38,5 +38,5 @@ By the end of this workshop, you will have:
 
 - [Transform data with SQL expressions](https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/sql-expressions/)
 - [Configure the Google Sheets data source](https://grafana.com/docs/plugins/grafana-googlesheets-datasource/latest/setup/configure/)
-- [Grafana Assistant](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/) (Grafana Cloud; see exercise for self-managed options)
+- [Grafana Assistant](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [The Traitors UK interactive learning guide (Play)](https://play.grafana.org/d/siqtdwm/the-traitors-uk-series-4?doc=https:%2F%2Finteractive-learning.grafana.net%2Fguides%2Fplay-traitors-uk-tour%2Fcontent.json&orgId=1&from=2026-01-01T00:00:00.000Z&to=2026-01-12T00:00:00.000Z&timezone=browser&var-player=$__all)

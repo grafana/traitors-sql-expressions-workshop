@@ -2,7 +2,7 @@
 
 ## Goals
 
-By the end of this section you will have:
+By the end of this section, you will have:
 
 - Familiarized yourself with the Traitors UK data set
 - Configured the **Google Sheets** data source in Grafana and authenticated with an API key
