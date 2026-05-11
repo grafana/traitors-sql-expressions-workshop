@@ -86,6 +86,10 @@ Click the **Run query** button to verify the results. If you need assistance, re
 1. Give your panel a name (for example **Players with the most votes**)
 2. Save the dashboard 
 
+## Next
+
+Let's look at what Grafana Assistant is and how it can help you with writing more queries and creating better dashboards.
+
 ---
 
 [← Previous exercise](../3.%20sql-expressions-basic-syntax/) · [Workshop homepage](../README.md) · [Next exercise →](../5.%20grafana-assistant/)
