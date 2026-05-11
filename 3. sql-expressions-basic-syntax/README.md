@@ -1,52 +1,53 @@
-# SQL expressions — basic syntax
+# SQL Expressions — basic syntax
 
 ## Goals
 
-You will write your **first SQL expressions** on top of the Google Sheets query: **project** columns and **alias** them. Keep using the **UK Traitors Series 4** data from the prior exercises.
+By the end of this section, you will have:
 
-**Need help?** Use [code-snippets.md](./code-snippets.md) and verify identifiers in **Panel inspect → Data**.
+- Written basic **SQL Expressions** on top of the Google Sheets query
 
-## Prerequisites
+**Need help?** Use [code-snippets.md](./code-snippets.md) as a reference, or raise your hands and we'll come assist you!
 
-- Completed [Google Sheets setup](../1.%20google-sheets-data-source-setup/) and [first panel](../2.%20first-panel-without-sql-expressions/).
-- Column names from your Table panel (examples below—**yours may differ**): `player`, `episode`, `voted_for`, `outcome`, `status`, `shield`, `episode_date`.
+## Step 1: Add the SQL Expression transformation
 
-## Exercise
+1. On the same table panel, under the **Queries** tab, click **+ Expression**.
+2. Select **SQL**
 
-### Step 1 — Open the panel from section 2
+## Step 2: Add the starter expression
 
-Edit the Table panel that queries the tracker sheet.
-
-### Step 2 — Add the starter expression
-
-In **SQL expressions**, start from:
+In the **SQL expressions** section, start from picking a couple of columns you care about:
 
 ```sql
 SELECT
-  -- 1. Pick two or three columns you care about (match Panel inspect → Data names)
+  -- 1. Pick two or three columns you care about (e.g. player, status, shield)
 
-  -- 2. Give at least one column a clearer alias with AS ...
+  -- 2. Give at least one column a clearer alias with AS
 FROM
   A
 ```
 
-The frame alias is usually **`A`** for the first query. If your panel uses multiple queries later, you will see **`B`**, **`C`**, and so on.
+> [!NOTE]
+> 
+> The frame alias is usually **`A`** for the first query. If your panel uses multiple queries later, you will see **`B`**, **`C`**, and so on.
 
-### Step 3 — Validate
+## Step 3: Run query
 
-1. Apply the expression.
-2. **Panel inspect → Data** should show only the columns you selected.
-3. Toggle SQL expressions off and on to compare with the raw query.
+1. Click the **Run query** button
+2. If you don't see any changes, don't panic! SQL Expressions add another query row on top of the existing query from our Google Sheets. To see the SQL expression results, select `B` from the panel table dropdown.
 
-**Success looks like:** Fewer, renamed columns; no errors in the panel footer.
+![Table panel with two queries](../images/multiple-queries.png)
 
-## Lab answer
+You should now only see the columns that you have picked from Step 2.
 
-Compare with [answer/basics.sql](./answer/basics.sql) (adjust quoted identifiers to match your sheet).
+## Step 4: Hide response from query A
 
-## Other resources
+To only display the query result with SQL Expressions applied, you can hide the response of query A by clicking the **Hide response (eye icon)**, as seen in the image below.
 
-- [Transform data with SQL expressions](https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/sql-expressions/)
+![Hide query](../images/hide-query.png)
+
+## Next
+
+Let's look at writing more SQL expressions, and exploring other syntaxes like `WHERE`, `GROUP BY`, and `COUNT`.
 
 ---
 

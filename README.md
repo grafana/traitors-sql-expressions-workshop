@@ -32,7 +32,7 @@ By the end of this workshop, you will have:
 - A Google account (for API key authentication)
 - [Git](https://git-scm.com/install/), if you're going to clone this repo locally
 - **Optional**: IDE such as [VS Code](https://code.visualstudio.com/download) or [Cursor](https://cursor.com/download)
-- **Optional**: familiarity with SQL (`SELECT`, `WHERE`, `GROUP BY`)—snippets are provided in each exercise
+- **Optional**: familiarity with SQL (`SELECT`, `WHERE`, `GROUP BY`) would be helpful, but not needed! Snippets are provided in each exercise.
 
 ## Documentation and other resources
 

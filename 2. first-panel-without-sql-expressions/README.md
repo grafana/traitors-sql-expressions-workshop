@@ -32,7 +32,7 @@ In the query editor:
 
 1. Update the data source by selecting `grafana-googlesheets-datasource` from the dropdown. 
 2. Set **Spreadsheet** to the spreadsheet ID and hit enter.
-2. Set **Range** if needed (for example `Sheet1!A:G` or leave default to pull the configured range—confirm against your sheet tab name).
+3. Set **Range** if needed (for example `Sheet1!A:G` or leave default to pull the configured range—confirm against your sheet tab name).
 
 Run the query and confirm you see the panel populated with data from the spreadsheet.
 

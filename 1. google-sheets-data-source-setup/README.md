@@ -24,10 +24,10 @@ Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.
 ## Step 2: Set up authentication
 
 1. Open the Grafana menu and navigate to **Connections > Data sources**
-3. Click or search `grafana-googlesheets-datasource`
-4. Under **Authentication**, select **API Key**.
-5. Expand the **Configure Google Sheets Authentication** drawer and follow the instructions to generate an API key.
-6. Click the **Save and test** button
+2. Click or search `grafana-googlesheets-datasource`
+3. Under **Authentication**, select **API Key**.
+4. Expand the **Configure Google Sheets Authentication** drawer and follow the instructions to generate an API key.
+5. Click the **Save and test** button
 
 A successful connection shows the message Success.
 
