@@ -1,5 +1,7 @@
 # Google Sheets data source and SQL expressions
 
+The Grafana instance provided to you should have a Google Sheets data source installed. Having said that, the following steps are still useful to know so you have an idea how to configure the Google Sheets data source.
+
 ## Goals
 
 By the end of this section, you will have:
@@ -21,7 +23,7 @@ The tab includes columns such as `player`, `episode`, `voted_for`, `outcome`, `s
 
 Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
 
-## Step 2: Set up authentication
+## (Optional) Step 2: Set up authentication
 
 1. Open the Grafana menu and navigate to **Connections > Data sources**
 2. Click or search `grafana-googlesheets-datasource`

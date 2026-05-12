@@ -10,12 +10,12 @@ Workshop resources for learning **SQL expressions** in Grafana using real [**UK 
 
 | Topic                                           | Duration | Exercise instructions                                                                 |
 | ----------------------------------------------- | -------- | ------------------------------------------------------------------------------------- |
-| Google Sheets data source and SQL expressions   | 22 mins  | [Setup](./1.%20google-sheets-data-source-setup/)                                      |
-| First panel (query only, no SQL expressions)    | 12 mins  | [First panel](./2.%20first-panel-without-sql-expressions/)                            |
-| SQL expressions — basic syntax                  | 18 mins  | [Basic syntax](./3.%20sql-expressions-basic-syntax/)                                  |
+| Google Sheets data source and SQL expressions   | 5 mins   | [Setup](./1.%20google-sheets-data-source-setup/)                                      |
+| First panel (query only, no SQL expressions)    | 10 mins  | [First panel](./2.%20first-panel-without-sql-expressions/)                            |
+| SQL expressions — basic syntax                  | 20 mins  | [Basic syntax](./3.%20sql-expressions-basic-syntax/)                                  |
 | Break                                           | 10 mins  |                                                                                       |
-| SQL expressions — complex syntax                | 22 mins  | [Complex syntax](./4.%20sql-expressions-complex-syntax/)                              |
-| Grafana Assistant                               | 6 mins   | [Grafana Assistant](./5.%20grafana-assistant/)                                        |
+| SQL expressions — complex syntax                | 30 mins  | [Complex syntax](./4.%20sql-expressions-complex-syntax/)                              |
+| Grafana Assistant                               | 15 mins  | [Grafana Assistant](./5.%20grafana-assistant/)                                        |
 
 ### If you finish early (optional)
 
@@ -29,7 +29,6 @@ These are **not** part of the timed **80 minutes** of core exercises—they are 
 
 By the end of this workshop, you will have:
 
-- Installed and configured the [**Google Sheets data source**](https://grafana.com/docs/plugins/grafana-googlesheets-datasource/latest/) for the shared tracker spreadsheet
 - Understood where **SQL expressions** fit in the panel pipeline (after the query returns rows to the panel)
 - Built a **Table** panel from the sheet **without** SQL expressions, then added expressions for **projection**, **filtering**, **aggregation**, and **multi-query** shapes
 - Used **Grafana Assistant** to get unstuck on SQL expression syntax and panel workflows
@@ -38,10 +37,11 @@ By the end of this workshop, you will have:
 ## Pre-requisites
 
 - A laptop with Wi‑Fi, running Linux, macOS, or Windows
-- A Google account (for API key authentication)
 - [Git](https://git-scm.com/install/), if you're going to clone this repo locally
 - **Optional**: IDE such as [VS Code](https://code.visualstudio.com/download) or [Cursor](https://cursor.com/download)
 - **Optional**: familiarity with SQL (`SELECT`, `WHERE`, `GROUP BY`) would be helpful, but not needed! Snippets are provided in each exercise.
+
+We will provide you with a Grafana instance that you can log in to! If you prefer to use your own Grafana instance, whether using on-prem or Cloud, then that is also totally fine.
 
 ## Documentation and other resources
 
