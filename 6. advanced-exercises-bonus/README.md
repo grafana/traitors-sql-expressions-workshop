@@ -80,6 +80,44 @@ If you need assistance, use Grafana Assistant! 😉
 
 ## Exercise B: — Use the Dynamic image panel plugin to display an image
 
+For this exercise, you are going to display static images from https://storage.googleapis.com/play-static-content/the-traitors-uk/ and append the player's namem, depending on their outcome. 
+
+For example, if the contestant is still active, display: https://storage.googleapis.com/play-static-content/the-traitors-uk/rachel.webp. Else, display: https://storage.googleapis.com/play-static-content/the-traitors-uk/rachel_out.webp 
+
+### Step 1: Get the player's image filename
+
+Duplicate an existing panel, update the SQL Expression and use the template below:
+
+```sql
+SELECT
+  -- 1. use a CASE statement to display the player's image filename
+  -- If the player was 'Murdered' or 'Banished', append _out to their lowercased name (e.g., adam_out) -> CONCAT(LOWER(player), '_out')  
+  -- Otherwise, just lowercase the name (e.g., adam) -> LOWER(player)
+
+  -- 2. use another CASE statement to display different outcome
+  -- If outcome is NULL or empty string, return 'Active'
+  -- Else, return the outcome
+FROM A
+WHERE
+  -- add your filtering condition here.
+  -- for the player's value, use the dashboard variable '${player}'
+ORDER BY
+ -- order by "episode" in a DESC order
+LIMIT 1
+
+```
+
+## Step 2: Use the dynamic image panel plugin to display the image
+
+The plugin builds a URL as **base URL + icon field + suffix** (see [plugin docs](https://grafana.com/grafana/plugins/dalvany-image-panel/)).
+
+1. Change the visualization type to **Dynamic image panel**.
+2. In the Dynamic image panel, set the **Base URL** to `https://storage.googleapis.com/play-static-content/the-traitors-uk/`.
+3. In the **Icon field** dropdown, select `player`.
+4. In the **Suffix** field, type `.webp`.
+
+**Success looks like:** The panel renders the correct WebP image when the URL resolves. If the player has been murdered or banished, you should see the image with a red cross. 
+
 ---
 
 ## Other resources
