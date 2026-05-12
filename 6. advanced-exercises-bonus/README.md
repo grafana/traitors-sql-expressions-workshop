@@ -13,6 +13,16 @@ By the end of this section, you will have:
 
 **Need help?** Use [code-snippets.md](./code-snippets.md) as a reference, or raise your hands and we'll come assist you!
 
+## (Optional) Install the Dynamic image panel plugin 
+
+The Grafana instance provided to you should have the Dynamic image panel plugin installed. Having said that, the following steps are still useful to know so you have an idea how to install a plugin.
+
+1. Open the Grafana menu and navigate to **Administration > Plugins and data > Plugins**
+2. Click or search `Dynamic image panel`
+3. Click the **Install** button
+
+The plugin should be successfully installed.
+
 ## Exercise A: Using dashboard variable and repeating rows with SQL expressions
 
 ### Step 1: Create a `player` variable
