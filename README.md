@@ -17,6 +17,14 @@ Workshop resources for learning **SQL expressions** in Grafana using real [**UK 
 | SQL expressions — complex syntax                | 22 mins  | [Complex syntax](./4.%20sql-expressions-complex-syntax/)                              |
 | Grafana Assistant                               | 6 mins   | [Grafana Assistant](./5.%20grafana-assistant/)                                        |
 
+### If you finish early (optional)
+
+| Topic | Exercise |
+| ----- | -------- |
+| Advanced bonus: variables, layout, images | [Bonus exercises](./6.%20advanced-exercises-bonus/) |
+
+These are **not** part of the timed **80 minutes** of core exercises—they are stretch goals after section 5 or for self-paced follow-up.
+
 ## What you will learn
 
 By the end of this workshop, you will have:
@@ -25,6 +33,7 @@ By the end of this workshop, you will have:
 - Understood where **SQL expressions** fit in the panel pipeline (after the query returns rows to the panel)
 - Built a **Table** panel from the sheet **without** SQL expressions, then added expressions for **projection**, **filtering**, **aggregation**, and **multi-query** shapes
 - Used **Grafana Assistant** to get unstuck on SQL expression syntax and panel workflows
+- _(Optional bonus)_ Explored **dashboard variables**, **repeat rows**, and the **Dynamic image panel** plugin for player-specific views and static Traitors assets
 
 ## Pre-requisites
 

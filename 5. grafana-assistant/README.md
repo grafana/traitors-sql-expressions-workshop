@@ -35,6 +35,9 @@ Try prompts such as:
 - [Grafana Assistant documentation](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [Grafana Assistant plugin](https://grafana.com/grafana/plugins/grafana-assistant-app/)
 
+## Next
+
+Looking for more exercises? Try out the advanced exercises in the next section!
 ---
 
-[← Previous exercise](../4.%20sql-expressions-complex-syntax/) · [Workshop homepage](../README.md)
+[← Previous exercise](../4.%20sql-expressions-complex-syntax/) · [Workshop homepage](../README.md) · [Bonus exercises →](../6.%20advanced-exercises-bonus/)
