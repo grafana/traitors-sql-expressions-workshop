@@ -6,6 +6,12 @@ Workshop resources for learning **SQL expressions** in Grafana using real [**UK 
 
 **Runtime:** **90 minutes** total — **80 minutes** of guided exercises plus a **10-minute** scheduled break.
 
+## Slide deck
+
+If you're interested in running a workshop, feel free to use the slide deck below as an accompanying resource.
+
+- [SQL Expressions starter slide deck](https://docs.google.com/presentation/d/1MDT0eEBfaB7fjpY_keaDQiZU86Aqec_qazRvlz6wECI)
+
 ## Workshop agenda
 
 | Topic                                           | Duration | Exercise instructions                                                                 |
