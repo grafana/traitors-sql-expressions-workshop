@@ -30,7 +30,7 @@ The plugin should be successfully installed.
 1. Open **Dashboard settings > View all settings > Variables**.
 2. Suggested approaches:
    - **Custom** — paste a comma-separated list of names that match the `player` column in the sheet (quick for a demo).
-   - **Query variable** (Recommended) — select the `grafana-googlesheets-datasource` and add the spreadsheet ID. Under the **Label field**, select **player**.
+   - **Query variable** (Recommended) — select the `grafana-googlesheets-datasource` and add the spreadsheet ID `1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU`. Under the **Label field**, select **player**.
 3. Name the variable **`player`**.
 4. Under **Selection options**, enable **Multi-value** and **Include all option**.
 
