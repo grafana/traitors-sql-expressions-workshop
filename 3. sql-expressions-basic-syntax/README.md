@@ -30,7 +30,7 @@ FROM
 > 
 > The frame alias is usually **`A`** for the first query. If your panel uses multiple queries later, you will see **`B`**, **`C`**, and so on.
 > 
-> The “table name” **`A`** is also case sensitive in sql expressions: **`a`** won't work but **`A`** will.
+> The “table name” **`A`** is also case sensitive in SQL expressions: **`a`** won't work but **`A`** will.
 
 ## Step 3: Run query
 
