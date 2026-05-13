@@ -14,19 +14,25 @@ By the end of this section, you will have:
 
 **Spreadsheet ID**: `1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU`
 
-## Step 1: Create a new dashboard and panel
+## Step 1: Create a new folder
 
 1. Open the Grafana menu and navigate to **Dashboards**.
-2. Click **New > New dashboard**
-3. Since we have configured the **Google Sheets** data source already, click **Skip to dashboard**.
-4. On the right-hand side, drag or click to add a panel.
-5. Click **Configure visualization**
+2. Click **New > New folder**
+3. Give the new folder a name
+
+You should see the new folder created successfully.
+
+## Step 2: Create a new dashboard and panel
+
+1. Click **Create dashboard** button
+2. On the right-hand side, drag or click to add a panel.
+3. Click **Configure visualization**
 
 You should see a new panel, like the one below.
 
 ![Blank panel](../images/blank-panel.png)
 
-## Step 2: Query the Traitors UK spreadsheet using the Google Sheets data source
+## Step 3: Query the Traitors UK spreadsheet using the Google Sheets data source
 
 In the query editor:
 
@@ -38,7 +44,7 @@ Run the query and confirm you see the panel populated with data from the spreads
 
 ![Basic table panel](../images/basic-table.png)
 
-## Step 3: Save the dashboard
+## Step 4: Save the dashboard
 
 1. Save the dashboard and give it a name (for example **Traitors SQL expressions**).
 

@@ -47,6 +47,8 @@ Click the **Run query** button to verify the results. If you need assistance, re
 1. Give your panel a name (for example **Murdered on Episode 1**)
 2. Save the dashboard 
 
+---
+
 ## Exercise B: Find out which player received the most votes
 
 ### Step 1: Duplicate your panel
