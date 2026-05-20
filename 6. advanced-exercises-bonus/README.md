@@ -94,6 +94,8 @@ For this exercise, you are going to display static images from https://storage.g
 
 For example, if the contestant is still active, display: https://storage.googleapis.com/play-static-content/the-traitors-uk/rachel.webp. Else, display: https://storage.googleapis.com/play-static-content/the-traitors-uk/rachel_out.webp 
 
+We've provided the images already hosted for you on Google Cloud at the above URLs.  If you prefer to host them elsewhere, we've also included all of the image files you'll need in the [`data/images`](../data/images/) folder in this repository.
+
 ### Step 1: Get the player's image filename
 
 Duplicate an existing panel, update the SQL Expression and use the template below:
@@ -126,7 +128,9 @@ The plugin builds a URL as **base URL + icon field + suffix** (see [plugin docs]
 3. In the **Icon field** dropdown, select `player`.
 4. In the **Suffix** field, type `.webp`.
 
-**Success looks like:** The panel renders the correct WebP image when the URL resolves. If the player has been murdered or banished, you should see the image with a red cross. 
+**Success looks like:** The panel renders the correct WebP image when the URL resolves. If the player has been murdered or banished, you should see the image with a red cross like this:
+
+![Example image for a player who is out of the game](../data/images/netty_out.webp)
 
 ---
 
