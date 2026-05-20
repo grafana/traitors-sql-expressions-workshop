@@ -1,0 +1,170 @@
+player,episode,voted_for,outcome,status,shield,episode_date
+Adam,1,,,Assumed Faithful,,01/01/2026
+Amanda,1,,,Assumed Faithful,Yes,01/01/2026
+Ben,1,,,Assumed Faithful,Yes,01/01/2026
+Ellie,1,,,Assumed Faithful,Yes,01/01/2026
+Faraaz,1,,,Assumed Faithful,,01/01/2026
+Fiona,1,,,Traitor,,01/01/2026
+Harriet,1,,,Assumed Faithful,Yes,01/01/2026
+Hugo,1,,,Traitor,Yes,01/01/2026
+Jack,1,,,Assumed Faithful,Yes,01/01/2026
+Jade,1,,,Assumed Faithful,Yes,01/01/2026
+James,1,,,Faithful,,01/01/2026
+Jessie,1,,,Assumed Faithful,Yes,01/01/2026
+Judy,1,,,Assumed Faithful,,01/01/2026
+Matthew,1,,,Assumed Faithful,Yes,01/01/2026
+Maz,1,,,Faithful,,01/01/2026
+Netty,1,,Murdered,Faithful,,01/01/2026
+Rachel,1,,,Traitor,,01/01/2026
+Reece,1,,,Assumed Faithful,,01/01/2026
+Ross,1,,,Assumed Faithful,,01/01/2026
+Roxy,1,,,Assumed Faithful,Yes,01/01/2026
+Sam,1,,,Assumed Faithful,Yes,01/01/2026
+Stephen,1,,,Traitor,Yes,01/01/2026
+Adam,2,Judy,,Assumed Faithful,,02/01/2026
+Amanda,2,Jade,,Assumed Faithful,Yes,02/01/2026
+Ben,2,Judy,,Faithful,,02/01/2026
+Ellie,2,Judy,,Assumed Faithful,,02/01/2026
+Faraaz,2,Judy,,Assumed Faithful,Yes,02/01/2026
+Fiona,2,Judy,,Traitor,,02/01/2026
+Harriet,2,Judy,,Assumed Faithful,,02/01/2026
+Hugo,2,Judy,,Traitor,,02/01/2026
+Jack,2,Judy,,Assumed Faithful,,02/01/2026
+Jade,2,Judy,,Assumed Faithful,Yes,02/01/2026
+James,2,Judy,,Faithful,,02/01/2026
+Jessie,2,Judy,,Assumed Faithful,,02/01/2026
+Judy,2,Sam,Banished,Faithful,,02/01/2026
+Matthew,2,Judy,,Assumed Faithful,,02/01/2026
+Maz,2,Judy,,Faithful,,02/01/2026
+Rachel,2,Ross,,Traitor,,02/01/2026
+Reece,2,Adam,,Faithful,,02/01/2026
+Ross,2,Judy,,Assumed Faithful,,02/01/2026
+Roxy,2,James,,Assumed Faithful,,02/01/2026
+Sam,2,Judy,,Assumed Faithful,,02/01/2026
+Stephen,2,Judy,,Traitor,,02/01/2026
+Adam,3,Hugo,,Assumed Faithful,Yes,03/01/2026
+Amanda,3,Jade,,Assumed Faithful,,03/01/2026
+Ben,3,,Murdered,Faithful,,03/01/2026
+Ellie,3,Hugo,,Assumed Faithful,,03/01/2026
+Faraaz,3,Sam,,Assumed Faithful,,03/01/2026
+Fiona,3,Hugo,,Traitor,,03/01/2026
+Harriet,3,Hugo,,Assumed Faithful,,03/01/2026
+Hugo,3,Amanda,Banished,Traitor,,03/01/2026
+Jack,3,Reece,,Assumed Faithful,,03/01/2026
+Jade,3,Amanda,,Assumed Faithful,,03/01/2026
+James,3,Reece,,Faithful,,03/01/2026
+Jessie,3,Amanda,,Assumed Faithful,,03/01/2026
+Matthew,3,Hugo,,Assumed Faithful,,03/01/2026
+Maz,3,Hugo,,Faithful,,03/01/2026
+Rachel,3,Ross,,Traitor,,03/01/2026
+Reece,3,Hugo,,Faithful,,03/01/2026
+Ross,3,Hugo,,Assumed Faithful,,03/01/2026
+Roxy,3,James,,Assumed Faithful,,03/01/2026
+Sam,3,Hugo,,Assumed Faithful,,03/01/2026
+Stephen,3,Hugo,,Traitor,,03/01/2026
+Adam,4,Jade,,Faithful,Yes,04/01/2026
+Amanda,4,Jade,,Faithful,Yes,04/01/2026
+Ellie,4,Reece,,Faithful,Yes,04/01/2026
+Faraaz,4,Sam,,Faithful,Yes,04/01/2026
+Fiona,4,Ross,,Traitor,Yes,04/01/2026
+Harriet,4,Ross,,Faithful,Yes,04/01/2026
+Jack,4,Reece,,Faithful,Yes,04/01/2026
+Jade,4,Ross,,Faithful,Yes,04/01/2026
+James,4,Reece,,Faithful,Yes,04/01/2026
+Jessie,4,Reece,,Faithful,Yes,04/01/2026
+Matthew,4,Sam,,Faithful,Yes,04/01/2026
+Maz,4,Jade,,Faithful,,04/01/2026
+Rachel,4,Ross,,Traitor,Yes,04/01/2026
+Reece,4,Ross,,Faithful,,04/01/2026
+Ross,4,Stephen,Banished,Faithful,,04/01/2026
+Roxy,4,Ross,,Faithful,Yes,04/01/2026
+Sam,4,Reece,,Faithful,,04/01/2026
+Stephen,4,Maz,,Traitor,,04/01/2026
+Adam,5,Reece,,Faithful,Yes,05/01/2026
+Amanda,5,Jade,Banished,Faithful,,05/01/2026
+Ellie,5,Amanda,,Faithful,,05/01/2026
+Faraaz,5,Stephen,,Faithful,,05/01/2026
+Fiona,5,Reece,,Traitor,,05/01/2026
+Harriet,5,Stephen,,Faithful,Yes,05/01/2026
+Jack,5,Reece,,Faithful,Yes,05/01/2026
+Jade,5,Amanda,,Faithful,,05/01/2026
+James,5,Reece,,Faithful,Yes,05/01/2026
+Jessie,5,Stephen,,Faithful,Yes,05/01/2026
+Matthew,5,Amanda,,Faithful,,05/01/2026
+Maz,5,,Murdered,Faithful,,05/01/2026
+Rachel,5,Sam,,Traitor,Yes,05/01/2026
+Reece,5,Ellie,,Faithful,,05/01/2026
+Roxy,5,Reece,,Faithful,Yes,05/01/2026
+Sam,5,Amanda,,Faithful,,05/01/2026
+Stephen,5,Amanda,,Traitor,,05/01/2026
+Adam,6,Jade,,Faithful,,06/01/2026
+Ellie,6,Sam,,Faithful,,06/01/2026
+Faraaz,6,Sam,,Faithful,,06/01/2026
+Fiona,6,Sam,Banished,Traitor,,06/01/2026
+Harriet,6,Fiona,,Faithful,,06/01/2026
+Jack,6,Fiona,,Faithful,,06/01/2026
+Jade,6,Fiona,,Faithful,,06/01/2026
+James,6,Fiona,,Faithful,,06/01/2026
+Jessie,6,Fiona,,Faithful,,06/01/2026
+Matthew,6,Sam,,Faithful,,06/01/2026
+Rachel,6,Fiona,,Traitor,,06/01/2026
+Reece,6,,Murdered,Faithful,,06/01/2026
+Roxy,6,Fiona,,Faithful,,06/01/2026
+Sam,6,Fiona,,Faithful,,06/01/2026
+Stephen,6,Fiona,,Traitor,,06/01/2026
+Adam,7,Matthew,,Faithful,,07/01/2026
+Ellie,7,Jade,,Faithful,,07/01/2026
+Faraaz,7,Harriet,,Faithful,Yes,07/01/2026
+Harriet,7,Rachel,Banished,Faithful,,07/01/2026
+Jack,7,Harriet,,Faithful,Yes,07/01/2026
+Jade,7,Harriet,,Faithful,Yes,07/01/2026
+James,7,Harriet,,Faithful,Yes,07/01/2026
+Jessie,7,Harriet,,Faithful,Yes,07/01/2026
+Matthew,7,Harriet,,Faithful,,07/01/2026
+Rachel,7,Harriet,,Traitor,Yes,07/01/2026
+Roxy,7,Harriet,,Faithful,,07/01/2026
+Sam,7,Harriet,,Faithful,,07/01/2026
+Stephen,7,Harriet,,Traitor,Yes,07/01/2026
+Adam,8,,Murdered,Faithful,,08/01/2026
+Ellie,8,Sam,,Faithful,,08/01/2026
+Faraaz,8,Sam,,Faithful,,08/01/2026
+Jack,8,Matthew,,Faithful,,08/01/2026
+Jade,8,Sam,,Faithful,,08/01/2026
+James,8,Matthew,,Faithful,,08/01/2026
+Jessie,8,Stephen,,Faithful,,08/01/2026
+Matthew,8,Sam,,Faithful,,08/01/2026
+Rachel,8,Sam,,Traitor,,08/01/2026
+Roxy,8,James,,Faithful,,08/01/2026
+Sam,8,Ellie,Banished,Faithful,Yes,08/01/2026
+Stephen,8,Sam,,Traitor,,08/01/2026
+Ellie,9,Jade,Banished,Faithful,,09/01/2026
+Faraaz,9,Ellie,,Faithful,,09/01/2026
+Jack,9,Matthew,,Faithful,,09/01/2026
+Jade,9,Ellie,,Faithful,,09/01/2026
+James,9,Matthew,,Faithful,,09/01/2026
+Jessie,9,,Murdered,Faithful,,09/01/2026
+Matthew,9,Jade,,Faithful,,09/01/2026
+Rachel,9,Ellie,,Traitor,,09/01/2026
+Roxy,9,James,,Faithful,,09/01/2026
+Stephen,9,Ellie,,Traitor,,09/01/2026
+Faraaz,10,Jade,,Faithful,,10/01/2026
+Jack,10,Matthew,,Faithful,Yes,10/01/2026
+Jade,10,James,,Faithful,,10/01/2026
+James,10,Matthew,,Faithful,,10/01/2026
+Matthew,10,James,Banished,Faithful,,10/01/2026
+Rachel,10,Matthew,,Traitor,,10/01/2026
+Roxy,10,James,,Faithful,,10/01/2026
+Stephen,10,Matthew,,Traitor,,10/01/2026
+Faraaz,11,Rachel,,Faithful,Yes,11/01/2026
+Jack,11,Rachel,,Faithful,Yes,11/01/2026
+Jade,11,James,,Faithful,Yes,11/01/2026
+James,11,Rachel,,Faithful,Yes,11/01/2026
+Rachel,11,James,,Traitor,Yes,11/01/2026
+Roxy,11,,Murdered,Faithful,Yes,11/01/2026
+Stephen,11,James,,Traitor,Yes,11/01/2026
+Faraaz,12,Jade,,Faithful,,12/01/2026
+Jack,12,Rachel,,Faithful,,12/01/2026
+Jade,12,Faraaz,Banished,Faithful,,12/01/2026
+James,12,,Banished,Faithful,,12/01/2026
+Rachel,12,Jade,,Traitor,,12/01/2026
+Stephen,12,Jade,,Traitor,,12/01/2026

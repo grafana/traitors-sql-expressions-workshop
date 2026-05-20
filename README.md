@@ -2,7 +2,7 @@
 
 Workshop resources for learning **SQL expressions** in Grafana using real [**UK Traitors Series 4**](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) tracker data from Google Sheets. You will connect the sheet as a data source, build a plain panel first, then layer **SQL expressions** to reshape results—without leaving the panel editor.
 
-**Workshop data (Google Sheets):** [UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing)
+**Workshop data (Google Sheets):** [UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing).  If you prefer to import the raw data into a Google Sheet or other data source of your own, we've included it as a CSV file [here](data/raw_data.csv).
 
 **Runtime:** **90 minutes** total — **80 minutes** of guided exercises plus a **10-minute** scheduled break.
 

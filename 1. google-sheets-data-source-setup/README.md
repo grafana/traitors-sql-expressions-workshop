@@ -19,6 +19,8 @@ Make a note of the **Spreadsheet ID**: `1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4
 
 The tab includes columns such as `player`, `episode`, `voted_for`, `outcome`, `status`, `shield`, and `episode_date`. 
 
+If you prefer to create your own Google Sheet, we've provided the raw CSV data [here](../data/raw_data.csv).  Import this into your Google Sheet, ensure that the sheet is shared publically and make a note of its ID.
+
 ## Step 1: Log in to your Grafana Instance
 
 Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
