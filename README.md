@@ -2,9 +2,9 @@
 
 ![UK Traitors series 4 ensemble](data/images/traitors_ensemble.jpg)
 
-Workshop resources for learning **SQL expressions** in Grafana using real [**UK Traitors Series 4**](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) tracker data from Google Sheets. You will connect the sheet as a data source, build a plain panel first, then layer **SQL expressions** to reshape results—without leaving the panel editor.
+Workshop resources for learning **SQL expressions** in Grafana using real [**UK Traitors Series 4**](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) tracker data from either a Google Sheet or as CSV data. You will either set up Grafana's Google Sheets or Infinity data source, build a plain panel first, then layer **SQL expressions** to reshape results without leaving the panel editor.
 
-**Workshop data (Google Sheets):** [UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing).  If you prefer to import the raw data into a Google Sheet or other data source of your own, we've included it as a CSV file [here](data/raw_data.csv).
+**Workshop data (Google Sheets):** [UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing).  If you prefer to import the raw data into a Google Sheet or other data source of your own, we've included it as a CSV file [here](data/raw_data.csv).  You'll also use the CSV data if you choose to use our Infinity plugin option.
 
 **Runtime:** **90 minutes** total — **80 minutes** of guided exercises plus a **10-minute** scheduled break.
 
@@ -18,7 +18,7 @@ If you're interested in running a workshop, feel free to use the slide deck belo
 
 | Topic                                           | Duration | Exercise instructions                                                                 |
 | ----------------------------------------------- | -------- | ------------------------------------------------------------------------------------- |
-| Google Sheets data source and SQL expressions   | 5 mins   | [Setup](./1.%20google-sheets-data-source-setup/)                                      |
+| Setting up your data source                     |  5 mins  | [Setup](./1.%20data-source-setup/)                                                    |
 | First panel (query only, no SQL expressions)    | 10 mins  | [First panel](./2.%20first-panel-without-sql-expressions/)                            |
 | SQL expressions — basic syntax                  | 20 mins  | [Basic syntax](./3.%20sql-expressions-basic-syntax/)                                  |
 | Break                                           | 10 mins  |                                                                                       |
@@ -49,11 +49,12 @@ By the end of this workshop, you will have:
 - **Optional**: IDE such as [VS Code](https://code.visualstudio.com/download) or [Cursor](https://cursor.com/download)
 - **Optional**: familiarity with SQL (`SELECT`, `WHERE`, `GROUP BY`) would be helpful, but not needed! Snippets are provided in each exercise.
 
-We will provide you with a Grafana instance that you can log in to! If you prefer to use your own Grafana instance, whether using on-prem or Cloud, then that is also totally fine.
+We will provide you with a Grafana instance that you can log in to! If you prefer to use your own Grafana instance, whether using on-prem or Cloud, then that is also totally fine.  If you're using the Google Sheets data source, you'll also need a Google account and API key.  See the setup instructions for more details.
 
 ## Documentation and other resources
 
 - [Transform data with SQL expressions](https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/sql-expressions/)
 - [Configure the Google Sheets data source](https://grafana.com/docs/plugins/grafana-googlesheets-datasource/latest/setup/configure/)
+- [Configure the Infinity data souce](https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/)
 - [Grafana Assistant](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [The Traitors UK interactive learning guide (Play)](https://play.grafana.org/d/siqtdwm/the-traitors-uk-series-4?doc=https:%2F%2Finteractive-learning.grafana.net%2Fguides%2Fplay-traitors-uk-tour%2Fcontent.json&orgId=1&from=2026-01-01T00:00:00.000Z&to=2026-01-12T00:00:00.000Z&timezone=browser&var-player=$__all)

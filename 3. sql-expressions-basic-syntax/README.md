@@ -4,7 +4,7 @@
 
 By the end of this section, you will have:
 
-- Written basic **SQL Expressions** on top of the Google Sheets query
+- Written basic **SQL Expressions** on top of the data source query
 
 **Need help?** Use [code-snippets.md](./code-snippets.md) as a reference, or raise your hands and we'll come assist you!
 

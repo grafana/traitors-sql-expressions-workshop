@@ -26,7 +26,8 @@ In your Grafana Cloud instance, open **Assistant** from the Grafana UI.
 
 Try prompts such as:
 
-- “I have a Google Sheets frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the shield the most.”
+- (If you're using Google Sheets) “I have a Google Sheets data frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the most shields.”
+- (If you're using Infinity) “I have an Infinity data frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the most shields.”
 - “My panel `<panel name>` is returning an error. Try and fix the issue, and explain to me what was changed.”
 - “How do I join frame `A` and frame `B` on `player` in Grafana SQL expressions?”
 
