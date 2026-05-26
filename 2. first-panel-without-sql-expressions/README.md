@@ -35,6 +35,7 @@ In the query editor:
 1. Update the data source by selecting `grafana-googlesheets-datasource` from the dropdown. 
 2. Set **Spreadsheet** to the spreadsheet ID (`1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU`) and hit enter.
 3. Set **Range** if needed (for example `Sheet1!A:G` or leave default to pull all data: confirm against your sheet tab name).
+4. Set **Cache Time** to `5h`.  This reduces the number of Google API calls made between Grafana and the Sheets API.  As the data in the sheet isn't being updated in real time, we can use a long cache time without any concerns.
 
 Run the query and confirm you see the panel populated with data from the spreadsheet. 
 
