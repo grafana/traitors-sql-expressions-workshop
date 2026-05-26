@@ -32,6 +32,8 @@ Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.
 
 ### (Optional) Step 2: Set up authentication
 
+If you're using a Grafana environment provided specifically for this workshop, you may not need to perform this step.  Check with your instructor.
+
 1. Open the Grafana menu and navigate to **Connections > Data sources**
 2. Click or search `grafana-googlesheets-datasource`
 TODO install the Google sheets data source?
@@ -39,13 +41,15 @@ TODO install the Google sheets data source?
 4. Expand the **Configure Google Sheets Authentication** drawer and follow the instructions to generate an API key.
 5. Click the **Save and test** button
 
-A successful connection shows the message Success.
+A successful connection shows the message "Success".
 
 ![Auth success message](../images/auth-success.png)
 
 ## Infinity data source instructions
 
 TODO
+
+TODO https://storage.googleapis.com/play-static-content/the-traitors-uk/raw_data.csv
 
 ---
 

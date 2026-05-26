@@ -45,7 +45,16 @@ When you're ready, move on to step 4.
 
 ## Step 3 (Infinity): Query the Traitors UK data using the Infinity data source
 
-TODO
+In the query editor:
+
+1. Update the data source by selecting `grafanacloud-infinity` from the dropdown. (In open source self-hosted Grafana look for `yesoreyeram-infinity-datasource`)
+2. Set **Type** to `CSV`.
+3. Ensure **Parser** is set to `Backend`, **Source** to `URL`, **Format** to `Table` and **Method** to `GET`.
+3. Scroll down to the **URL** field and enter `https://storage.googleapis.com/play-static-content/the-traitors-uk/raw_data.csv` (your instructor may provide an alternative URL).
+
+Run the query and confirm you see the panel populated with data from the CSV file.
+
+TODO IMAGE -- and make sure the Google sheets one has the columns in the right order, I suspect it doesn't right now.
 
 ## Step 4: Save the dashboard
 
