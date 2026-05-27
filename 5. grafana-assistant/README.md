@@ -33,6 +33,8 @@ Try prompts such as:
 
 ## Other resources
 
+TODO add Nicole's video...
+
 - [Grafana Assistant documentation](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [Grafana Assistant plugin](https://grafana.com/grafana/plugins/grafana-assistant-app/)
 
