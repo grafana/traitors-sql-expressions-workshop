@@ -36,6 +36,8 @@ WHERE
 
 Click the **Run query** button to verify the results. If you need assistance, remember to check [code-snippets.md](./code-snippets.md)!
 
+Also, don't forget that string comparisons are case-sensitive. The outcome you're looking for is 'Murdered' rather than 'murdered' or 'MURDERED'. You can always check the values in the [original spreadsheet](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) too.
+
 ### Step 3: Change the visualization style
 
 1. Click the **Change** button beside the visualization name
