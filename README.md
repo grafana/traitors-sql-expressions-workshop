@@ -2,7 +2,7 @@
 
 ![UK Traitors series 4 ensemble](data/images/traitors_ensemble.jpg)
 
-Workshop resources for learning **SQL expressions** in Grafana using real [**UK Traitors Series 4**](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) tracker data from either a Google Sheet or as CSV data. You will either set up Grafana's Google Sheets or Infinity data source, build a plain panel first, then layer **SQL expressions** to reshape results without leaving the panel editor.
+Workshop resources for learning [**SQL expressions**](https://grafana.com/docs/grafana/latest/visualizations/panels-visualizations/query-transform-data/sql-expressions/) in Grafana using real [**UK Traitors Series 4**](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing) tracker data from either a Google Sheet or as CSV data. You will either set up Grafana's Google Sheets or Infinity data source, build a plain panel first, then layer **SQL expressions** to reshape results without leaving the panel editor.
 
 **Workshop data (Google Sheets):** [UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing).  If you prefer to import the raw data into a Google Sheet or other data source of your own, we've included it as a CSV file [here](data/raw_data.csv).  You'll also use the CSV data if you choose to use our Infinity plugin option.
 

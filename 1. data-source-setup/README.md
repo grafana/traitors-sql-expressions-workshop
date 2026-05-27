@@ -1,15 +1,15 @@
 # Data source setup
 
-TODO update this...
+If you're using a Grafana instance that we've provided for you, treat this section as reference material as we'll have installed the data source you need ahead of time.
 
-The Grafana instance provided to you should have a Google Sheets data source installed. Having said that, the following steps are still useful to know so you have an idea how to configure the Google Sheets data source.
+If you're using your own Grafana Cloud or open source environment, read on...
 
 ## Goals
 
 By the end of this section, you will have:
 
 - Familiarized yourself with the Traitors UK data set
-- Configured either the **Google Sheets** or **Infinity** data source in Grafana
+- Configured either the **Google Sheets** or **Infinity** data source in Grafana (make sure to check with your instructor before choosing)
 - If using the Google Sheets data source, you will also have authenticated with an API key
 
 **Need help?** Raise your hand and we'll come assist you!
@@ -30,7 +30,11 @@ If you prefer to create your own Google Sheet, we've provided the raw CSV data [
 
 Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
 
-### (Optional) Step 2: Set up authentication
+### Step 2: TODO
+
+TODO: This will be the Google Sheets data source installation.
+
+### Step 3: Set up authentication
 
 If you're using a Grafana environment provided specifically for this workshop, you may not need to perform this step.  Check with your instructor.
 
