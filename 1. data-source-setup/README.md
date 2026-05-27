@@ -14,9 +14,15 @@ By the end of this section, you will have:
 
 **Need help?** Raise your hand and we'll come assist you!
 
+## Log in to your Grafana instance
+
+Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
+
 ## Google Sheets data source instructions
 
-### Workshop spreadsheet
+Follow these instructions if you're using Google Sheets as the data source.  If you're unsure, ask your instructor.
+
+### Step 1: Open the workshop spreadsheet
 
 Open the sheet: **[UK Traitors Series 4 Tracker](https://docs.google.com/spreadsheets/d/1VcaZ4q8ZM2k6O9f6BGMRiWbXYbPQ3gbjLlFuAM4BcJU/edit?usp=sharing)**
 
@@ -26,11 +32,7 @@ The sheet includes columns such as `player`, `episode`, `voted_for`, `outcome`, 
 
 If you prefer to create your own Google Sheet, we've provided the raw CSV data [here](../data/raw_data.csv).  Import this into your Google Sheet, ensure that the sheet is shared publically and make a note of its ID.
 
-### Step 1: Log in to your Grafana Instance
-
-Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
-
-### Step 2: TODO
+### Step 2: Add the Google Sheets data source
 
 TODO: This will be the Google Sheets data source installation.
 
@@ -51,9 +53,14 @@ A successful connection shows the message "Success".
 
 ## Infinity data source instructions
 
+Follow these instructions if you're using CSV data as the data source.  If you're unsure, ask your instructor.
+
+### Step 1: Add the Infinity data source
+
+The Infinity data source should be pre-installed in most Grafana environments.  In this step, you'll check if it is, and install it if it isn't...
+
 TODO
 
-TODO https://storage.googleapis.com/play-static-content/the-traitors-uk/raw_data.csv
 
 ---
 
