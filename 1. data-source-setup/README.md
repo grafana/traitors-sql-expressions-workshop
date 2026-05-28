@@ -2,7 +2,7 @@
 
 If you're using a Grafana instance that we've provided for you, treat this section as reference material as we'll have installed the data source you need ahead of time.
 
-If you're using your own Grafana Cloud or open source environment, read on...
+If you're using your own Grafana Cloud or your self-hosted open source environment, read on...
 
 ## Goals
 
@@ -32,11 +32,11 @@ The sheet includes columns such as `player`, `episode`, `voted_for`, `outcome`, 
 
 If you prefer to create your own Google Sheet, we've provided the raw CSV data [here](../data/raw_data.csv).  Import this into your Google Sheet, ensure that the sheet is shared publically and make a note of its ID.
 
-### Step 2: Add the Google Sheets data source
+### Step 2: Verify / Add the Google Sheets data source
 
 If you're using a Grafana environment provided specifically for this workshop, you may not need to perform this step.  Check with your instructor.
 
-1. Open the Grafana menu and navigate to **Plugins and data > Plugins**
+1. Open the Grafana menu and navigate to **Administration > Plugins and data > Plugins**
 2. Search for `grafana-googlesheets-datasource`.
 3. Click on the "Google Sheets" search result.
 4. If you see a blue "Install" button in the top right corner, click it to install the data source plugin.  If you see a red "Uninstall" button in the top right corner, the plugin is already installed and there's nothing else to do.
@@ -60,11 +60,15 @@ A successful connection shows the message "Success".
 
 Follow these instructions if you're using CSV data as the data source.  If you're unsure, ask your instructor.
 
-### Step 1: Add the Infinity data source
+### Step 1: Verify / Add the Infinity data source
 
 The Infinity data source should be pre-installed in most Grafana environments.  In this step, you'll check if it is, and install it if it isn't...
 
-TODO
+1. Open the Grafana menu and navigate to **Administration > Plugins and data > Plugins**
+2. Search for `infinity`.
+3. You should see s tile in your search results that shows that the infinity plugin is installed.  If it isn't, click on the search result then click "Install" in the top right corner.
+
+OK, you're ready to go!
 
 
 ---
