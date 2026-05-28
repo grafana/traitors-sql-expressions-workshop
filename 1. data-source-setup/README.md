@@ -34,15 +34,20 @@ If you prefer to create your own Google Sheet, we've provided the raw CSV data [
 
 ### Step 2: Add the Google Sheets data source
 
-TODO: This will be the Google Sheets data source installation.
+If you're using a Grafana environment provided specifically for this workshop, you may not need to perform this step.  Check with your instructor.
+
+1. Open the Grafana menu and navigate to **Plugins and data > Plugins**
+2. Search for `grafana-googlesheets-datasource`.
+3. Click on the "Google Sheets" search result.
+4. If you see a blue "Install" button in the top right corner, click it to install the data source plugin.  If you see a red "Uninstall" button in the top right corner, the plugin is already installed and there's nothing else to do.
 
 ### Step 3: Set up authentication
 
 If you're using a Grafana environment provided specifically for this workshop, you may not need to perform this step.  Check with your instructor.
 
 1. Open the Grafana menu and navigate to **Connections > Data sources**
-2. Click or search `grafana-googlesheets-datasource`
-TODO install the Google sheets data source?
+2. Click "Add new data source".
+3. Search for  `google sheets` and click on the Google Sheets result.
 3. Under **Authentication**, select **API Key**.
 4. Expand the **Configure Google Sheets Authentication** drawer and follow the instructions to generate an API key.
 5. Click the **Save and test** button
