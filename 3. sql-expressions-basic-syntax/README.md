@@ -47,6 +47,8 @@ To only display the query result with SQL Expressions applied, you can hide the 
 
 ![Hide query](../images/hide-query.png)
 
+TODO add Infinity example...
+
 ## Step 5: Rename your panel and save the dashboard
 
 1. Give your panel a name (for example **Basic SQL Expression**)

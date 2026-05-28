@@ -47,7 +47,7 @@ When you're ready, move on to step 4.
 
 In the query editor:
 
-1. Update the data source by selecting `grafanacloud-infinity` from the dropdown. (In open source self-hosted Grafana look for `yesoreyeram-infinity-datasource`)
+1. Update the data source by selecting `grafanacloud-infinity` from the dropdown. (In open source self-hosted Grafana look for `infinity` or `yesoreyeram-infinity-datasource`)
 2. Set **Type** to `CSV`.
 3. Ensure **Parser** is set to `Backend`, **Source** to `URL`, **Format** to `Table` and **Method** to `GET`.
 3. Scroll down to the **URL** field and enter `https://storage.googleapis.com/play-static-content/the-traitors-uk/raw_data.csv` (your instructor may provide an alternative URL).
