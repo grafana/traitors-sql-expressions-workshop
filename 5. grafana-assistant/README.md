@@ -33,7 +33,9 @@ Try prompts such as:
 
 ## Other resources
 
-TODO add Nicole's video...
+You could even have Assistant build an entire dashboard for you.  Check out Nicole's video where she does just that:
+
+[![Watch the tutorial on YouTube](../images/youtube-tutorial-image.png)](https://www.youtube.com/watch?v=X3TZk_qywlo)
 
 - [Grafana Assistant documentation](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [Grafana Assistant plugin](https://grafana.com/grafana/plugins/grafana-assistant-app/)
