@@ -54,7 +54,9 @@ In the query editor:
 
 Run the query and confirm you see the panel populated with data from the CSV file.
 
-TODO IMAGE -- and make sure the Google sheets one has the columns in the right order, I suspect it doesn't right now.
+![Basic table panel](../images/basic-table.png)
+
+Note that the output here differs slightly from the Google Sheets data source.  The Infinity data source automatically sorts the columns by name, alphabetically.  This doesn't matter as we'll be querying them by name in our SQL expressions.
 
 ## Step 4: Save the dashboard
 
