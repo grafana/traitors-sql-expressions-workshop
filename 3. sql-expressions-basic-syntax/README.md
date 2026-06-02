@@ -4,7 +4,7 @@
 
 By the end of this section, you will have:
 
-- Written basic **SQL Expressions** on top of the Google Sheets query
+- Written basic **SQL Expressions** on top of the data source query
 
 **Need help?** Use [code-snippets.md](./code-snippets.md) as a reference, or raise your hands and we'll come assist you!
 
@@ -43,9 +43,13 @@ You should now only see the columns that you have picked from Step 2.
 
 ## Step 4: Hide response from query A
 
-To only display the query result with SQL Expressions applied, you can hide the response of query A by clicking the **Hide response (eye icon)**, as seen in the image below.
+To only display the query result with SQL Expressions applied, you can hide the response of query A by clicking the **Hide response (eye icon)**, as seen in the image below for the Google Sheets data source.
 
 ![Hide query](../images/hide-query.png)
+
+If you're using the Infinity data source, it'll look like this (the eye icon is still in the same place):
+
+![Hide query Infinity version](../images/hide-query-infinity.png)
 
 ## Step 5: Rename your panel and save the dashboard
 

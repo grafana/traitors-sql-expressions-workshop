@@ -26,11 +26,16 @@ In your Grafana Cloud instance, open **Assistant** from the Grafana UI.
 
 Try prompts such as:
 
-- “I have a Google Sheets frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the shield the most.”
+- (If you're using Google Sheets) “I have a Google Sheets data frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the most shields.”
+- (If you're using Infinity) “I have an Infinity data frame `A` with columns `player`, `episode`, `shield`. Write a SQL expression that displays which player received the most shields.”
 - “My panel `<panel name>` is returning an error. Try and fix the issue, and explain to me what was changed.”
 - “How do I join frame `A` and frame `B` on `player` in Grafana SQL expressions?”
 
 ## Other resources
+
+You could even have Assistant build an entire dashboard for you.  Check out Nicole's video where she does just that:
+
+[![Watch the tutorial on YouTube](../images/youtube-tutorial-image.png)](https://www.youtube.com/watch?v=X3TZk_qywlo)
 
 - [Grafana Assistant documentation](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [Grafana Assistant plugin](https://grafana.com/grafana/plugins/grafana-assistant-app/)

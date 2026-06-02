@@ -142,4 +142,4 @@ The plugin builds a URL as **base URL + icon field + suffix** (see [plugin docs]
 
 ---
 
-[← Previous exercise](../5.%20grafana-assistant/) · [Workshop homepage](../README.md)
+[← Previous exercise](../5.%20grafana-assistant/) · [Workshop homepage](../README.md) · [Export your dashboard →](../7.%20export-your-dashboard-to-take-with-you/)
