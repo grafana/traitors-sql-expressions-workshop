@@ -58,3 +58,4 @@ We will provide you with a Grafana instance that you can log in to! If you prefe
 - [Configure the Infinity data souce](https://grafana.com/grafana/plugins/yesoreyeram-infinity-datasource/)
 - [Grafana Assistant](https://grafana.com/docs/grafana-cloud/machine-learning/assistant/)
 - [The Traitors UK interactive learning guide (Play)](https://play.grafana.org/d/siqtdwm/the-traitors-uk-series-4?doc=https:%2F%2Finteractive-learning.grafana.net%2Fguides%2Fplay-traitors-uk-tour%2Fcontent.json&orgId=1&from=2026-01-01T00:00:00.000Z&to=2026-01-12T00:00:00.000Z&timezone=browser&var-player=$__all)
+- Read about this project in [Simon's article](https://medium.com/grafana-labs/tracking-the-traitors-tv-show-with-sql-expressions-in-grafana-33b8bd6fe84e) on the Grafana Unprompted blog on Medium
